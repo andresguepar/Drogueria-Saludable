@@ -6,4 +6,6 @@ class Product:
         self.description = description
         self.price = price
         self.stock = stock
-    
+
+    def __str__(self):
+        return f"ID: {self.id}, Name: {self.name}, Description: {self.description}, Price: {self.price}, Stock: {self.stock}"

@@ -8,3 +8,6 @@ class Order:
         self.totalPrice = totalPrice
         self.stock = stock
         self.supplier = supplier
+        
+    def __str__(self):
+        return f"Order ID: {self.id}\nDate: {self.date}\nEmployee: {self.employee}\nClient: {self.client}\nProduct List: {self.productList}\nTotal Price: {self.totalPrice}\nStock: {self.stock}\nSupplier: {self.supplier}"
