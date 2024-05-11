@@ -1,10 +1,10 @@
-import IProductBuilder
-import Product
-import Singleton
 
-class ProductBuilder(Singleton,IProductBuilder):    
+import Product
+
+
+class ProductBuilder():    
     def __init__(self):
-        self.product = Product()
+        self.product = Product.Product()
 
     def set_id(self, id):
         self.product.id = id

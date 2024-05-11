@@ -1,7 +1,5 @@
-import Persona
 
-
-class Employee(Persona):
+class Employee():
        def __init__(self, id = None, name = None, lastName = None, position = None, addres = None, phone = None):
         self.id = id
         self.name = name
